@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/text_color_selector.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/text_color_selector.xml"
+    },
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/start_task_but.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/start_task_but.xml"
+    },
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/btn_bg_selector.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/btn_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/bar_data_graph_but.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/bar_data_graph_but.xml"
+    },
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/bar_simulation_task_but.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/bar_simulation_task_but.xml"
+    },
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/seek_bar_bg.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/seek_bar_bg.xml"
+    },
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/checkbox_btn_selector.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/checkbox_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/bar_task_setting_but.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/bar_task_setting_but.xml"
+    },
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/seek_thumb_bar.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/seek_thumb_bar.xml"
+    },
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/edit_text_bg_selector.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/edit_text_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/db_cache_data_clear_btn.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/db_cache_data_clear_btn.xml"
+    },
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/bar_cache_data_but.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/bar_cache_data_but.xml"
+    },
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/clear_btn.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/clear_btn.xml"
+    },
+    {
+        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/drawable/memory_cache_data_clear_btn.xml",
+        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/drawable/memory_cache_data_clear_btn.xml"
+    }
+]

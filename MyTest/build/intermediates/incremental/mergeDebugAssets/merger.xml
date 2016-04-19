@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="/Users/wlf/android-httpdns/HTTPDNSLib/MyTest/build/intermediates/exploded-aar/HTTPDNSLib/DNSCache/unspecified/assets"/></dataSet><dataSet config="main"><source path="/Users/wlf/android-httpdns/HTTPDNSLib/MyTest/src/main/assets"/></dataSet><dataSet config="debug"><source path="/Users/wlf/android-httpdns/HTTPDNSLib/MyTest/src/debug/assets"/></dataSet></merger>
