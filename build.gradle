@@ -5,7 +5,9 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.0.0'
+        classpath 'com.android.tools.build:gradle:2.3.3'
+
+        classpath 'com.aaron.gradle:bintray-release:1.0.0'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -20,6 +22,31 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+// global variables definition for all as modules
+ext {
+    compileSdkVersion = 25
+    buildToolsVersion = "25.0.0"
+    minSdkVersion = 17
+    // suggest targetSdkVersion == compileSdkVersion
+    targetSdkVersion = 25
+
+    versionCode = 1
+    versionName = "1.0.0"
+
+    zipAlignEnabled = true
+
+    minifyEnabled = false
+    shrinkResources = false
+
+    junitVersion = "4.12"
+    supportVersion = "25.3.1"
+
+    multiDexEnabled = true
+
+    abortOnError = false
+    checkReleaseBuilds = false
 }
 
 

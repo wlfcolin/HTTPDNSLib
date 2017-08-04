@@ -1,18 +1,22 @@
 apply plugin: 'com.android.library'
 
-android {
+apply plugin: 'com.aaron.gradle.bintray-release'
 
-    compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 15
+
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled rootProject.ext.minifyEnabled
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
@@ -24,4 +28,22 @@ android {
 }
 
 dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+}
+
+// cmd
+// ./gradlew --stacktrace bintrayUpload -PbintrayUser=wlfcolin -PbintrayKey=XXXXXXXXXXXXXX -PdryRun=false
+publish {
+    userOrg = 'wlfcolin'
+    groupId = 'me.andy5'
+    artifactId = 'DNSCache'
+    publishVersion = "$versionName"
+    // archives file('build/outputs/test.jar')
+    desc = 'a fork from https://github.com/CNSRE/HTTPDNSLib.'
+    website = 'https://github.com/wlfcolin/HTTPDNSLib'
+}
+
+tasks.withType(Javadoc) {
+    options.addStringOption('Xdoclint:none', '-quiet')
+    options.addStringOption('encoding', 'UTF-8')
 }

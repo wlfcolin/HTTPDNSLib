@@ -1,54 +1,54 @@
 [
     {
-        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/fragment_simulation_task.xml",
-        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/layout/fragment_simulation_task.xml"
+        "merged": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/activity_httpdns_expendtime.xml",
+        "source": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/layout/activity_httpdns_expendtime.xml"
     },
     {
-        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/list_view_item.xml",
-        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/layout/list_view_item.xml"
+        "merged": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/fragment_data_graph.xml",
+        "source": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/layout/fragment_data_graph.xml"
     },
     {
-        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/fragment_cache_data.xml",
-        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/layout/fragment_cache_data.xml"
+        "merged": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/activity_alltask_expendtime.xml",
+        "source": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/layout/activity_alltask_expendtime.xml"
     },
     {
-        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/activity_httpdns_expendtime.xml",
-        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/layout/activity_httpdns_expendtime.xml"
+        "merged": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/activity_task_info.xml",
+        "source": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/layout/activity_task_info.xml"
     },
     {
-        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/fragment_data_graph.xml",
-        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/layout/fragment_data_graph.xml"
+        "merged": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/fragment_task_setting.xml",
+        "source": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/layout/fragment_task_setting.xml"
     },
     {
-        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/fragment_task_setting.xml",
-        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/layout/fragment_task_setting.xml"
+        "merged": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/activity_tab_main.xml",
+        "source": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/layout/activity_tab_main.xml"
     },
     {
-        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/layout_task_setting_httpdns.xml",
-        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/layout/layout_task_setting_httpdns.xml"
+        "merged": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/fragment_simulation_task.xml",
+        "source": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/layout/fragment_simulation_task.xml"
     },
     {
-        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/activity_tab_main.xml",
-        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/layout/activity_tab_main.xml"
+        "merged": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/activity_all_task_speed_bi.xml",
+        "source": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/layout/activity_all_task_speed_bi.xml"
     },
     {
-        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/layout_task_setting_threadpool.xml",
-        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/layout/layout_task_setting_threadpool.xml"
+        "merged": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/activity_server_speed.xml",
+        "source": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/layout/activity_server_speed.xml"
     },
     {
-        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/activity_all_task_speed_bi.xml",
-        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/layout/activity_all_task_speed_bi.xml"
+        "merged": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/list_view_item.xml",
+        "source": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/layout/list_view_item.xml"
     },
     {
-        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/activity_task_info.xml",
-        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/layout/activity_task_info.xml"
+        "merged": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/layout_task_setting_httpdns.xml",
+        "source": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/layout/layout_task_setting_httpdns.xml"
     },
     {
-        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/activity_alltask_expendtime.xml",
-        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/layout/activity_alltask_expendtime.xml"
+        "merged": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/fragment_cache_data.xml",
+        "source": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/layout/fragment_cache_data.xml"
     },
     {
-        "merged": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/activity_server_speed.xml",
-        "source": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/layout/activity_server_speed.xml"
+        "merged": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/layout/layout_task_setting_threadpool.xml",
+        "source": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/layout/layout_task_setting_threadpool.xml"
     }
 ]

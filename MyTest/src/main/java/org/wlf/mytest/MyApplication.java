@@ -19,6 +19,6 @@ public class MyApplication extends Application {
         DNSCache.Init(this.getApplicationContext());
 
         // 预加载域名解析（可选）
-        DNSCache.getInstance().preLoadDomains(new String[]{"api.camera.weibo.com", "domain2", "domain3"});
+        // DNSCache.getInstance().preLoadDomains(new String[]{"api.camera.weibo.com", "domain2", "domain3"});
     }
 }

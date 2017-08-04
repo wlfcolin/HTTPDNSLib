@@ -10,6 +10,15 @@ import android.widget.TextView;
 import com.sina.util.dnscache.DNSCache;
 import com.sina.util.dnscache.DomainInfo;
 
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.params.ClientPNames;
+import org.apache.http.impl.client.DefaultHttpClient;
+
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -20,8 +29,8 @@ import java.net.URL;
  */
 public class MainActivity extends Activity {
 
-    private EditText etInput;
-    private TextView tvShow;
+    private EditText mEtInput;
+    private TextView mTvShow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,13 +38,13 @@ public class MainActivity extends Activity {
 
         setContentView(R.layout.main__activity_main);
 
-        etInput = (EditText) findViewById(R.id.etInput);
-        tvShow = (TextView) findViewById(R.id.tvShow);
+        mEtInput = (EditText) findViewById(R.id.et_input);
+        mTvShow = (TextView) findViewById(R.id.tv_show);
     }
 
     public void btnClick(View v) {
 
-        tvShow.setText("");
+        mTvShow.setText("");
 
         new Thread(new Runnable() {
             @Override
@@ -43,11 +52,11 @@ public class MainActivity extends Activity {
                 try {
 
                     // String oUrl = "http://www.baidu.com";
-                     String orginalUrl = etInput.getText().toString().trim();
+                    String orginalUrl = mEtInput.getText().toString().trim();
                     // String oUrl = "http://www.baidu.com";
                     orginalUrl = orginalUrl.toLowerCase();
-                    if(!orginalUrl.startsWith("http://")){
-                        orginalUrl = "http://"+orginalUrl;
+                    if (!orginalUrl.startsWith("http://")) {
+                        orginalUrl = "http://" + orginalUrl;
                     }
 
                     final String oUrl = orginalUrl;
@@ -66,9 +75,9 @@ public class MainActivity extends Activity {
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                tvShow.setText(tvShow.getText() + "\n" + "域名:" + oUrl);
-                                tvShow.setText(tvShow.getText() + "\n" + "host:" + domainModel.host);
-                                tvShow.setText(tvShow.getText() + "\n" + "ip:" + domainModel.url);
+                                mTvShow.setText(mTvShow.getText() + "\n" + "域名:" + oUrl);
+                                mTvShow.setText(mTvShow.getText() + "\n" + "host:" + domainModel.host);
+                                mTvShow.setText(mTvShow.getText() + "\n" + "ip:" + domainModel.url);
                             }
                         });
 
@@ -79,37 +88,48 @@ public class MainActivity extends Activity {
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                tvShow.setText(tvShow.getText() + "\n" + "ipUrl:" + reallyUrl);
+                                mTvShow.setText(mTvShow.getText() + "\n" + "ipUrl:" + reallyUrl);
                             }
                         });
 
                         URL url = new URL(reallyUrl);
-                         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+                        HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                         connection.setRequestProperty("host", domainModel.host);
                         Log.e("wlf", "responseCode:" + connection.getResponseCode());
                         Log.e("wlf", "responseMessage:" + connection.getResponseMessage());
 
-                        final int responseCode =  connection.getResponseCode();
-                        final String responseMessage =  connection.getResponseMessage();
+                        final int responseCode = connection.getResponseCode();
+                        final String responseMessage = connection.getResponseMessage();
 
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                tvShow.setText(tvShow.getText() + "\n" + "responseCode:" + responseCode);
-                                tvShow.setText(tvShow.getText() + "\n" + "responseMessage:" + responseMessage);
+                                mTvShow.setText(mTvShow.getText() + "\n" + "responseCode:" + responseCode);
+                                mTvShow.setText(mTvShow.getText() + "\n" + "responseMessage:" + responseMessage);
                             }
                         });
 
-                        /**
-                         HttpGet getMethod = new HttpGet(domainModel.url);
-                         getMethod.setHeader("host", domainModel.host);
-                         HttpClient httpClient = new DefaultHttpClient();
-                         httpClient.getParams().setParameter(ClientPNames.ALLOW_CIRCULAR_REDIRECTS, false);
-                         HttpResponse response = httpClient.execute(getMethod);
+                        HttpGet getMethod = new HttpGet(domainModel.url);
+                        getMethod.setHeader("host", domainModel.host);
+                        HttpClient httpClient = new DefaultHttpClient();
+                        httpClient.getParams().setParameter(ClientPNames.ALLOW_CIRCULAR_REDIRECTS, false);
+                        HttpResponse response = httpClient.execute(getMethod);
 
-                         Log.e("wlf", "response:" + response.getEntity().getContent().toString());
-                         */
+                        StringBuffer buffer = new StringBuffer();
 
+                        InputStream inputStream = response.getEntity().getContent();
+                        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, "utf8"));
+                        String line;
+                        while ((line = reader.readLine()) != null) {
+                            buffer.append(line);
+                        }
+
+                        String result = buffer.toString();
+
+                        Log.e("wlf", "response:" + result);
+
+                        mTvShow.setText(mTvShow.getText() + "\n\n" + "-----访问" + domainModel.url + "的结果-----" + "\n"
+                                + result);
                     }
                 } catch (final Exception e) {
                     e.printStackTrace();
@@ -117,7 +137,7 @@ public class MainActivity extends Activity {
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            tvShow.setText(tvShow.getText() + "\n" + "出现异常:" + e);
+                            mTvShow.setText(mTvShow.getText() + "\n" + "出现异常:" + e);
                         }
                     });
 

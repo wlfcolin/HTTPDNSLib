@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/build/intermediates/res/merged/debug/values/values.xml",
+        "outputFile": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 100
                 },
                 "from": {
-                    "file": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/values/strings.xml",
+                    "file": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 153
                 },
                 "from": {
-                    "file": "/Users/wlf/android-httpdns/HTTPDNSLib/DNSCacheTest/src/main/res/values/strings.xml",
+                    "file": "/Users/andy/temp/HTTPDNSLib/DNSCacheTest/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
