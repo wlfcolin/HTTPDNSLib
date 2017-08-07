@@ -2,10 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.wlf.mytest"
     android:versionCode="1"
-    android:versionName="1.0.0" >
+    android:versionName="1.0.1" >
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="15"
         android:targetSdkVersion="25" />
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -36,7 +36,7 @@
 
         <!-- 注册一个广播 -->
         <receiver
-            android:name="com.sina.util.networktype.NetworkStateReceiver"
+            android:name="com.sina.util.dnscache.net.networktype.NetworkStateReceiver"
             android:label="NetworkConnection" >
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />

@@ -3,7 +3,7 @@
     package="com.sina.util.dnscache.test.test" >
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="15"
         android:targetSdkVersion="25" />
 
     <instrumentation

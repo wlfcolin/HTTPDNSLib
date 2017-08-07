@@ -1,14 +1,14 @@
 # HTTPDNSLib
 
-a fork from https://github.com/CNSRE/HTTPDNSLib, I make it to support android 6.0+ and create MyTest module
+a fork from https://github.com/CNSRE/HTTPDNSLib, I make it to support android 6.0+ and create MyTest module, also some bugs fix
 
 * gradle
 ``` java
-compile 'me.andy5:DNSCache:1.0.0'
+compile 'me.andy5:DNSCache:1.0.1'
 ```
 
 ----------------------------------------------------------------------
-README from https://github.com/CNSRE/HTTPDNSLib
+README BELOW from https://github.com/CNSRE/HTTPDNSLib
 ----------------------------------------------------------------------
 
 
